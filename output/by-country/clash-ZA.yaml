@@ -13,10 +13,10 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 02 - xiaohe
   type: ss
-  server: 139.84.247.164
-  port: 8388
+  server: 20.164.212.103
+  port: 443
   cipher: chacha20-ietf-poly1305
-  password: tfAcRikawhNoZAhu
+  password: b39m1ZYI0Hkk8ieb
   udp: true
 - name: 🇿🇦 ZA 03 - xiaohe
   type: ss
