@@ -6,18 +6,18 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 188.137.178.174
-  port: 8443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  server: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+  port: 443
+  uuid: 51c5a070-39ff-43fd-ac53-597bb7e7ff3d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fs.qicai99.com
+  servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /9dffa10cc2d3b317?ed=2560
     headers:
-      Host: fs.qicai99.com
+      Host: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
